@@ -2,7 +2,7 @@
 
 ### Summary
 
-We implemented a polinomial multiplier (R_p = Z_p/<x^256 + 1> with p = 18434813901432784897) for the Xilinx Pynq-z2 FPGA board, following a hardware/software codesign. We used multiple optimization techniques to increase speed and reduce the area of our design. In cases where these goals contradicted each other, we prioritized speed over area.
+We implemented a polynomial multiplier (R_p = Z_p/<x^256 + 1> with p = 18434813901432784897) for the Xilinx Pynq-z2 FPGA board, following a hardware/software codesign. We used multiple optimization techniques to increase speed and reduce the area of our design. In cases where these goals contradicted each other, we prioritized speed over area.
 
 ### Design Choices and Strategy
 
