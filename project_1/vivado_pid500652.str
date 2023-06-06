@@ -1,0 +1,633 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:47:09 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 500652
+License: Customer
+
+Current time: 	Mon Jan 10 15:51:50 CET 2022
+Time zone: 	Central European Standard Time (Europe/Vienna)
+
+OS: Ubuntu
+OS Version: 5.11.0-44-generic
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Available disk space: 228 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	aikata
+User home directory: /home/aikata
+User working directory: /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2019.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/aikata/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/aikata/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/aikata/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/vivado.log
+Vivado journal file location: 	/home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-500652-t14a
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2019.1
+XILINX_SDK: /tools/Xilinx/SDK/2019.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	187 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 863 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// HMemoryUtils.trashcanNow. Engine heap size: 875 MB. GUI used memory: 122 MB. Current time: 1/10/22, 3:51:52 PM CET
+setFileChooser("/home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.xpr");
+// Opening Vivado Project: /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.xpr. Version: Vivado v2019.1 
+// by (cl):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 113 MB (+116475kb) [00:00:15]
+// [Engine Memory]: 980 MB (+876337kb) [00:00:15]
+// [Engine Memory]: 1,033 MB (+4112kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  3154 ms.
+// Tcl Message: open_project /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/aikata/CryptEng_class/CE_Assignment2/CryptoProcessor_2021_22/project_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'. 
+// [Engine Memory]: 1,085 MB (+422kb) [00:00:18]
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 6498.641 ; gain = 156.656 ; free physical = 2543 ; free virtual = 9814 
+// Project name: project_1; location: /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1; part: xc7z020clg400-1
+// 'i' command handler elapsed time: 9 seconds
+// [GUI Memory]: 127 MB (+8436kb) [00:00:18]
+dismissDialog("Open Project"); // by (cl)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 1,150 MB (+11335kb) [00:00:27]
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+// [Engine Memory]: 1,217 MB (+9954kb) [00:00:30]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,194 MB. GUI used memory: 60 MB. Current time: 1/10/22, 3:52:12 PM CET
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+// 'm' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 143 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+// 'm' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TRNG_wrapper (trng_wrapper.v)]", 2); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v)]", 1); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, cryptoprocessor_wrapper (cryptoprocessor_wrapper.v), cryptoprocessor_i : cryptoprocessor (cryptoprocessor.bd), cryptoprocessor (cryptoprocessor.v)]", 3); // B (F, cl)
+// [GUI Memory]: 143 MB (+9769kb) [00:12:44]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 68 MB. Current time: 1/10/22, 4:22:12 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1050645 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,140 MB. GUI used memory: 110 MB. Current time: 1/10/22, 5:00:54 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1912 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1300 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1758 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,116 MB. GUI used memory: 53 MB. Current time: 1/10/22, 5:30:54 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1451359 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,115 MB. GUI used memory: 52 MB. Current time: 1/10/22, 6:15:13 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1286 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1215 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,115 MB. GUI used memory: 52 MB. Current time: 1/10/22, 6:45:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,113 MB. GUI used memory: 52 MB. Current time: 1/10/22, 7:15:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,113 MB. GUI used memory: 52 MB. Current time: 1/10/22, 7:45:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,113 MB. GUI used memory: 52 MB. Current time: 1/10/22, 8:15:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,113 MB. GUI used memory: 52 MB. Current time: 1/10/22, 8:45:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,113 MB. GUI used memory: 52 MB. Current time: 1/10/22, 9:15:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,113 MB. GUI used memory: 52 MB. Current time: 1/10/22, 9:45:14 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,113 MB. GUI used memory: 52 MB. Current time: 1/10/22, 10:15:14 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  38175023 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,084 MB. GUI used memory: 44 MB. Current time: 1/11/22, 9:06:24 AM CET
+// Elapsed time: 62170 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// 'o' command handler elapsed time: 11 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Elapsed time: 832 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 240 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 187 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,086 MB. GUI used memory: 60 MB. Current time: 1/11/22, 9:36:29 AM CET
+// Elapsed time: 377 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "No"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 48 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 214 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 132 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 17 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file mkdir /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk 
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 523 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cl): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Launch SDK"); // aa (cl)
+// Tcl Message: launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment2_copy_assignment3/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 60 MB. Current time: 1/11/22, 10:06:29 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,088 MB. GUI used memory: 59 MB. Current time: 1/11/22, 10:36:29 AM CET

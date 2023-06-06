@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_modular_multiplication_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_modular_multiplication" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4800000fs"></ZoomStartTime>
+      <ZoomEndTime time="97000001fs"></ZoomEndTime>
+      <Cursor1Time time="67892000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="201"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="divider184" type="divider">
+      <obj_property name="label">BRAM_ports</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider190" type="divider">
+      <obj_property name="label">Polymul_internal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider424" type="divider">
+      <obj_property name="label">Modular_multiplier</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_modular_multiplication/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_modular_multiplication/mul_done">
+      <obj_property name="ElementShortName">mul_done</obj_property>
+      <obj_property name="ObjectShortName">mul_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_modular_multiplication/mul_start">
+      <obj_property name="ElementShortName">mul_start</obj_property>
+      <obj_property name="ObjectShortName">mul_start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_modular_multiplication/mul_ina">
+      <obj_property name="ElementShortName">mul_ina[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_ina[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_modular_multiplication/mul_inb">
+      <obj_property name="ElementShortName">mul_inb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_inb[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_modular_multiplication/mul_out">
+      <obj_property name="ElementShortName">mul_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_modular_multiplication/Mult/s">
+      <obj_property name="ElementShortName">s[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_modular_multiplication/Mult/r">
+      <obj_property name="ElementShortName">r[127:0]</obj_property>
+      <obj_property name="ObjectShortName">r[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_modular_multiplication/Mult/u">
+      <obj_property name="ElementShortName">u[127:0]</obj_property>
+      <obj_property name="ObjectShortName">u[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_modular_multiplication/Mult/reduced_val">
+      <obj_property name="ElementShortName">reduced_val[63:0]</obj_property>
+      <obj_property name="ObjectShortName">reduced_val[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_modular_multiplication/Mult/r1">
+      <obj_property name="ElementShortName">r1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">r1[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_modular_multiplication/Mult/r2">
+      <obj_property name="ElementShortName">r2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">r2[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_modular_multiplication/Mult/sx">
+      <obj_property name="ElementShortName">sx[191:0]</obj_property>
+      <obj_property name="ObjectShortName">sx[191:0]</obj_property>
+   </wvobject>
+</wave_config>

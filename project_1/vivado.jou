@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Nov 18 11:57:32 2022
+# Process ID: 15064
+# Current directory: E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11100 E:\OneDrive - UPV\__TUG\Cryptography on Hardware Platforms\02 - Labs\chw2022g3\project_1\project_1.xpr
+# Log file: E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/vivado.log
+# Journal file: E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/project_1.xpr}
+update_compile_order -fileset sources_1
+update_module_reference {cryptoprocessor_ComputeCoreWrapper_0_0 cryptoprocessor_ComputeCoreWrapper_0_0}
+update_module_reference {cryptoprocessor_ComputeCoreWrapper_0_0 cryptoprocessor_ComputeCoreWrapper_0_0}
+generate_target Simulation [get_files {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/project_1.srcs/sources_1/ip/mult_64/mult_64.xci}]
+generate_target Simulation [get_files {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci}]
+generate_target Simulation [get_files {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/project_1.srcs/sources_1/ip/BRAM64_1024_1/BRAM64_1024.xci}]
+generate_target Simulation [get_files {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/project_1.srcs/sources_1/ip/mult_64/mult_64.xci}]
+generate_target Simulation [get_files {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/project_1.srcs/sources_1/ip/INS_RAM/INS_RAM.xci}]
+generate_target Simulation [get_files {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/project_1.srcs/sources_1/ip/BRAM64_1024_1/BRAM64_1024.xci}]
+launch_simulation
+open_wave_config {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/tb_behav.wcfg}
+source tb_modular_multiplication.tcl
+add_bp {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/Verilog_src/poly_arithmetic/polynomial_multiplication.v} 46
+remove_bps -file {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/Verilog_src/poly_arithmetic/polynomial_multiplication.v} -line 46
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run all
+add_bp {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/Verilog_src/poly_arithmetic/polynomial_multiplication.v} 71
+remove_bps -file {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/Verilog_src/poly_arithmetic/polynomial_multiplication.v} -line 71
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/tb_modular_mult_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/tb_modular_mult_behav.wcfg}}
+set_property xsim.view {{E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/Verilog_src/test_bench/tb_compute_wrapper_new_behav.wcfg} {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/Verilog_src/test_bench/tb_kem_dec_cca_behav.wcfg} {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/tb_behav.wcfg} {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/tb_modular_mult_behav.wcfg}} [get_filesets sim_1]
+relaunch_sim
+relaunch_sim
+save_wave_config {E:/OneDrive - UPV/__TUG/Cryptography on Hardware Platforms/02 - Labs/chw2022g3/project_1/tb_modular_mult_behav.wcfg}
+close_sim

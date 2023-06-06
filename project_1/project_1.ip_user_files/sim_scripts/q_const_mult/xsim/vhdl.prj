@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/ip/q_const_mult/sim/q_const_mult.vhd" \
+
+nosort

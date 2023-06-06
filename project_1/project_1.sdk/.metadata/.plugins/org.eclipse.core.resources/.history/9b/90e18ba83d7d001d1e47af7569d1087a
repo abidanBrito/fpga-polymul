@@ -1,0 +1,202 @@
+#include "xparameters.h"
+#include "xtime_l.h"
+
+#include<stdio.h>
+#include<stdint.h>
+#include<stdlib.h>
+#include "../communication.h"
+#include "../instruction.h"
+#include "poly_arithmetic2.h"
+
+const uint64_t Q = 18434813901432784897ull;
+
+void poly_mult_HW(uint64_t *result, uint64_t *data1, uint64_t *data2, int idelay)
+{
+	uint32_t i,j;
+	uint64_t INS[64];
+	uint64_t fpga_memory_data[1024]; // This is a memory buffer in SW. This buffer is used to read contents from the BRAM-memory of FPGA.
+
+	// send data to  FPGA.
+	for(i=0; i<256; i++){
+		fpga_memory_data[i] = data1[i];
+		fpga_memory_data[i+256] = data2[i];
+	}
+	for(i=512; i<1024; i++)
+		fpga_memory_data[i] = 0;
+
+	send64(fpga_memory_data, 0, 512, 0);	// Send the buffer to FPGA's BRAM
+	//delay(idelay);
+
+	init_INS_Poly_mult(INS, 0, 256, 512);	// Input operand1 address=0, operand2 address=256, output result address=512.
+
+	send64(INS, 0, 12, 1); // send polynomial multiplication INStruction to FPGA using send64() function with flag=1.
+	delay(idelay);
+
+
+	exeIns();				// Now ask the FPGA to compute the instruction (i.e., polynomial multiplication)
+	delay(idelay);
+
+//	receive64(fpga_memory_data, 0, 1024); // Read the BRAM of FPGA into the SW-side buffer
+//	delay(idelay);
+//
+//	for(i=0; i<512; i++)
+//		result[i] = fpga_memory_data[i+512];
+//
+//	//for(i=0; i<1024-256; i++)
+//	//	printf("fpga_memory_data[%03lx]= %016llx\n", i, fpga_memory_data[i]);
+//	for(i=0; i<3; i++)
+//		printf("fpga_memory_data[%03lx]= %016llx\n", i, fpga_memory_data[i]);
+//	for(i=256-3; i<256+3; i++)
+//		printf("fpga_memory_data[%03lx]= %016llx\n", i, fpga_memory_data[i]);
+//	for(i=512-3; i<512+3; i++)
+//		printf("fpga_memory_data[%03lx]= %016llx\n", i, fpga_memory_data[i]);
+//	for(i=512+256-3; i<512+256; i++)
+//		printf("fpga_memory_data[%03lx]= %016llx\n", i, fpga_memory_data[i]);
+
+	receive64(result, 512, 256); // Read the BRAM of FPGA into the SW-side buffer
+}
+
+uint64_t addmod(uint64_t a, uint64_t b) {
+    uint64_t m = Q;
+	if (b >= m - a)
+		a -= m;
+	a += b;
+	return a;
+}
+
+// based on https://stackoverflow.com/questions/12168348/ways-to-do-modulo-multiplication-with-primitive-types
+uint64_t mulmod(uint64_t a, uint64_t b) {
+    uint64_t res = 0;
+    uint64_t temp_b;
+    uint64_t m = Q;
+
+    /* Only needed if b may be >= m */
+    if (b >= m) {
+        if (m > UINT64_MAX / 2u)
+            b -= m;
+        else
+            b %= m;
+    }
+
+    while (a != 0) {
+        if (a & 1) {
+            /* Add b to res, modulo m, without overflow */
+            if (b >= m - res) /* Equiv to if (res + b >= m), without overflow */
+                res -= m;
+            res += b;
+        }
+        a >>= 1;
+
+        /* Double b, modulo m */
+        temp_b = b;
+        if (b >= m - b)       /* Equiv to if (2 * b >= m), without overflow */
+            temp_b -= m;
+        b += temp_b;
+    }
+    return res;
+}
+
+void polymul(uint64_t *result, uint64_t *data1, uint64_t *data2) {
+	uint64_t C[512];
+    for (int i = 0; i < 256; i++) {
+    	C[i] = 0;
+    }
+    for (int iA = 0; iA < 256; iA++) {
+    	for (int iB = 0; iB < 256; iB++) {
+            C[iA + iB] = addmod(C[iA + iB], mulmod(data1[iA], data2[iB]));
+    	}
+    }
+    for (int i = 0; i < 256; i++) {
+		result[i] = addmod(C[i],Q-C[i + 256]);
+    }
+}
+
+void init_polymul(){
+	uint64_t consts[256];
+	for (int i = 0; i < 256; i++)
+		consts[i] = 0xfed5c7f4bd063279;
+	send64(consts, 768, 256, 0);
+}
+
+#define N_TESTS 1000
+
+void test_polymul(){
+	XTime tStart,tEnd;
+
+	int delay = 0;
+
+	uint64_t result[256], poly_a[256], poly_b[256], result_sw[256];
+
+	uint64_t hw_time_sum = 0;
+	uint64_t sw_time_sum = 0;
+	for (int i = 0; i < N_TESTS; i++) {
+		XTime_GetTime(&tStart);
+		poly_mult_HW(result, poly_a, poly_b, delay);
+		XTime_GetTime(&tEnd);
+		hw_time_sum += 2*(tEnd-tStart);
+
+	    XTime_GetTime(&tStart);
+	    polymul(result_sw, poly_a, poly_b);
+		XTime_GetTime(&tEnd);
+		sw_time_sum += 2*(tEnd-tStart);
+
+		for(int i=0; i<3; i++) {
+			printf("result   [%d]= %016llx\n", i, result[i]);
+		}
+		for(int i=256-3; i<256; i++) {
+			printf("result   [%d]= %016llx\n", i, result[i]);
+		}
+		for(int i=0; i<3; i++) {
+			printf("result_sw[%d]= %016llx\n", i, result_sw[i]);
+		}
+		for(int i=256-3; i<256; i++) {
+			printf("result_sw[%d]= %016llx\n", i, result_sw[i]);
+		}
+
+	    for (int i = 0; i < 256; i++) {
+			if (result[i] != result_sw[i]) {
+				printf("Test failed %d %llx %llx\n", i, result[i], result_sw[i]);
+				return;
+			}
+	    }
+	}
+	printf("Average total time (hw): %", hw_time_sum / N_TESTS);
+	printf("Average total time (sw): %", sw_time_sum / N_TESTS);
+
+//	for(uint64_t i=0; i<256; i++){
+//		poly_a[i]= (i << 24) + (i << 16) + (i << 8) + i;
+//		poly_b[i]= (i << 24) + (i << 16) + (i << 8) + i;
+//	}
+//	poly_a[0] = 0; poly_b[0]=0x0bbbbbbbbbbbbbbbull;
+
+//    XTime_GetTime(&tStart);
+//    for (int delay = 0; delay < 1; delay++) {
+//    	poly_mult_HW(result, poly_a, poly_b, delay);
+//    	if (result[0xff] == 0x7ceb0e44211d5cb4) {
+//    		printf("delay success at %d\n", delay);
+//    		break;
+//    	} else {
+//    		printf("delay failed at %d\n", delay);
+//    	}
+//    }
+//	XTime_GetTime(&tEnd);
+
+//    XTime_GetTime(&tStart);
+//    polymul(result_sw, poly_a, poly_b);
+//	XTime_GetTime(&tEnd);
+//	printf("Coeff mul in SW took %llu clock cycles \n",2*(tEnd-tStart));
+//
+//
+//	for(int i=0; i<3; i++) {
+//		printf("result   [%d]= %016llx\n", i, result[i]);
+//	}
+//	for(int i=256-3; i<256; i++) {
+//		printf("result   [%d]= %016llx\n", i, result[i]);
+//	}
+//	for(int i=0; i<3; i++) {
+//		printf("result_sw[%d]= %016llx\n", i, result_sw[i]);
+//	}
+//	for(int i=256-3; i<256; i++) {
+//		printf("result_sw[%d]= %016llx\n", i, result_sw[i]);
+//	}
+}

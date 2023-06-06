@@ -1,0 +1,38 @@
+14:12:27 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:156:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint64_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("Average total time (hw): %d\n", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:157:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint64_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("Average total time (sw): %d\n", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115120	   2584	16784160	16901864	101e6e8	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+
+14:12:27 Build Finished (took 212ms)
+

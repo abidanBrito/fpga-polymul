@@ -1,0 +1,88 @@
+#include "xparameters.h"
+#include "xtime_l.h"
+
+#include<stdio.h>
+#include<stdint.h>
+#include<stdlib.h>
+#include "../communication.h"
+#include "../instruction.h"
+#include "poly_arithmetic2.h"
+
+void poly_mult_HW(uint64_t *result, uint64_t *data1, uint64_t *data2)
+{
+	uint32_t i,j;
+	uint64_t INS[64];
+	uint64_t fpga_memory_data[1024]; // This is a memory buffer in SW. This buffer is used to read contents from the BRAM-memory of FPGA.
+
+	// send data to  FPGA.
+	for(i=0; i<256; i++){
+		fpga_memory_data[i] = data1[i];
+		fpga_memory_data[i+256] = data2[i];
+	}
+	for(i=512; i<1024; i++)
+		fpga_memory_data[i] = 0;
+
+	printf("sending starting...\n");
+	send64(fpga_memory_data, 0, 1024, 0);	// Send the buffer to FPGA's BRAM
+	printf("sending started...\n");
+	delay(100);
+	printf("sending done?\n");
+
+	init_INS_Poly_mult(INS, 0, 256, 512);	// Input operand1 address=0, operand2 address=256, output result address=512.
+
+	send64(INS, 0, 64, 1); // send polynomial multiplication INStruction to FPGA using send64() function with flag=1.
+	delay(100);
+
+
+	exeIns();				// Now ask the FPGA to compute the instruction (i.e., polynomial multiplication)
+	delay(100);
+
+	receive64(fpga_memory_data, 0, 1024); // Read the BRAM of FPGA into the SW-side buffer
+	delay(100);
+
+	for(i=0; i<512; i++)
+		result[i] = fpga_memory_data[i+512];
+
+	//for(i=0; i<1024-256; i++)
+	//	printf("fpga_memory_data[%lu]= %016llx\n", i, fpga_memory_data[i]);
+	for(i=0; i<10; i++)
+		printf("fpga_memory_data[%lu]= %016llx\n", i, fpga_memory_data[i]);
+	for(i=256; i<256+10; i++)
+		printf("fpga_memory_data[%lu]= %016llx\n", i, fpga_memory_data[i]);
+
+}
+
+
+void test_polymul(){
+	XTime tStart,tEnd;
+
+
+	uint64_t result[512], poly_a[256], poly_b[256];
+
+	for(int i=0; i<256; i++){
+		poly_a[i]= i; poly_b[i]=255-i;
+	}
+	poly_a[0] = 123; poly_b[0]=3;
+
+	for(uint64_t i=0; i<256; i++){
+		poly_a[i]= (i << 24) + (i << 16) + (i << 8) + i;
+		poly_b[i]= (i << 24) + (i << 16) + (i << 8) + i;
+	}
+	// TODO REENABLE! poly_a[0] = 0; poly_b[0]=0x0bbbbbbbbbbbbbbb;
+
+    XTime_GetTime(&tStart);
+	poly_mult_HW(result, poly_a, poly_b);
+	XTime_GetTime(&tEnd);
+
+    XTime_GetTime(&tStart);
+	for(int i=0; i<256; i++){
+		poly_a[i]= poly_a[i] * poly_b[i];
+	}
+	XTime_GetTime(&tEnd);
+	printf("Coeff mul in SW took %llu clock cycles \n",2*(tEnd-tStart));
+
+
+	for(int i=0; i<10; i++) {
+		printf("result[%d]= %016llx\n", i, result[i]);
+	}
+}

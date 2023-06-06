@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jharing/git/2nd/chw2022g3/project_1/project_1.srcs/sources_1/ip/BRAM64_512/sim/BRAM64_512.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRAM64_512
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jharing/git/2nd/chw2022g3/Verilog_src/poly_arithmetic/butterfly_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mod_add
+INFO: [VRFC 10-311] analyzing module mod_sub
+INFO: [VRFC 10-311] analyzing module butterfly_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jharing/git/2nd/chw2022g3/Verilog_src/poly_arithmetic/ntt_const_lut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ntt_const_lut
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jharing/git/2nd/chw2022g3/Verilog_src/poly_arithmetic/ntt_index_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ntt_index_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jharing/git/2nd/chw2022g3/Verilog_src/poly_arithmetic/polinomial_multiplication_input.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module polynomial_multiplication_input
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jharing/git/2nd/chw2022g3/Verilog_src/poly_arithmetic/polinomial_multiplication_output.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module polynomial_multiplication_output
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jharing/git/2nd/chw2022g3/Verilog_src/poly_arithmetic/polynomial_multiplication.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module modular_multiplier
+INFO: [VRFC 10-311] analyzing module polynomial_multiplication
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jharing/git/2nd/chw2022g3/project_1/project_1.srcs/sim_1/new/tb_polmul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_polmul

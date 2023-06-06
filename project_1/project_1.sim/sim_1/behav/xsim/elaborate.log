@@ -1,0 +1,111 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 5622309cf07a428893ca36aaeb3cc5d4 --incr --debug typical --rangecheck --relax --mt 8 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_15 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_polmul_behav xil_defaultlib.tb_polmul xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_15.mult_gen_v12_0_15_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package mult_gen_v12_0_15.mult_gen_v12_0_15_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_15.dsp_pkg
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.ntt_const_lut
+Compiling module xil_defaultlib.ntt_index_generator
+Compiling module xil_defaultlib.polynomial_multiplication_input
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,carryinreg...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,alumodereg=0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,bcascreg=2...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(a_input="CASCADE",bcasc...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(carryinreg=0,carryinsel...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,carryinreg...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,areg=2,bcasc...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,areg=2,bcasc...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,alumodereg=0...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,alumodereg=0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.op_resize [\op_resize(ai_width=64,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.dsp [\dsp(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.mult_gen_v12_0_15_viv [\mult_gen_v12_0_15_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.mult_gen_v12_0_15 [\mult_gen_v12_0_15(c_xdevicefami...]
+Compiling architecture mult_64_arch of entity xil_defaultlib.mult_64 [mult_64_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="zy...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_scaled_adder [\ccm_scaled_adder(a_width=67,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_scaled_adder [\ccm_scaled_adder(a_width=74,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_scaled_adder [\ccm_scaled_adder(a_width=87,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="zy...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_scaled_adder [\ccm_scaled_adder(a_width=74,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_scaled_adder [\ccm_scaled_adder(a_width=112,b_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm [\ccm(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.mult_gen_v12_0_15_viv [\mult_gen_v12_0_15_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.mult_gen_v12_0_15 [\mult_gen_v12_0_15(c_xdevicefami...]
+Compiling architecture mu_const_mult_arch of entity xil_defaultlib.mu_const_mult [mu_const_mult_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="zy...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_scaled_adder [\ccm_scaled_adder(a_width=70,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_scaled_adder [\ccm_scaled_adder(a_width=77,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_scaled_adder [\ccm_scaled_adder(a_width=90,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_dist_mem [\ccm_dist_mem(c_addr_width=6,c_d...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_syncmem [\ccm_syncmem(c_xdevicefamily="zy...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_scaled_adder [\ccm_scaled_adder(a_width=77,b_w...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.delay_line [\delay_line(c_xdevicefamily="zyn...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_scaled_adder [\ccm_scaled_adder(a_width=115,b_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm_operation [\ccm_operation(c_xdevicefamily="...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.ccm [\ccm(c_xdevicefamily="zynq",c_a_...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.mult_gen_v12_0_15_viv [\mult_gen_v12_0_15_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_15.mult_gen_v12_0_15 [\mult_gen_v12_0_15(c_xdevicefami...]
+Compiling architecture q_const_mult_arch of entity xil_defaultlib.q_const_mult [q_const_mult_default]
+Compiling module xil_defaultlib.modular_multiplier
+Compiling module xil_defaultlib.mod_add
+Compiling module xil_defaultlib.mod_sub
+Compiling module xil_defaultlib.butterfly_unit
+Compiling module xil_defaultlib.polynomial_multiplication_output
+Compiling module xil_defaultlib.polynomial_multiplication
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.BRAM64_512
+Compiling module xil_defaultlib.tb_polmul
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_polmul_behav

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec 13 00:48:04 2022
+# Process ID: 3397424
+# Current directory: /home/jharing/git/2nd/chw2022g3/project_1/project_1.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/jharing/git/2nd/chw2022g3/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/tb_computecore_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/jharing/git/2nd/chw2022g3/project_1/project_1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/jharing/git/2nd/chw2022g3/project_1/project_1.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/jharing/git/2nd/chw2022g3/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/tb_computecore_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,2389 @@
+11:34:22 **** Build of project crypto_master_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src
+make -C ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src
+make -C ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling AXI_Slave8Ports_new...
+AXI_Slave8Ports_new_selftest.c: In function 'AXI_SLAVE8PORTS_NEW_Reg_SelfTest':
+AXI_Slave8Ports_new_selftest.c:52:68: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( AXI_SLAVE8PORTS_NEW_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                    ^~
+AXI_Slave8Ports_new_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Finished building libraries
+11:34:30 **** Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  18736	   1144	  22576	  42456	   a5d8	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:34:31 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:35:15 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:35:19 **** Clean-only build of configuration Debug for project crypto_master ****
+make clean 
+rm -rf ./src/main.d ./src/main.o crypto_master.elf.size  crypto_master.elf
+ 
+11:35:19 **** Clean-only build of project crypto_master_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+11:35:20 **** Build of project crypto_master_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src
+make -C ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src
+make -C ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling AXI_Slave8Ports_new...
+AXI_Slave8Ports_new_selftest.c: In function 'AXI_SLAVE8PORTS_NEW_Reg_SelfTest':
+AXI_Slave8Ports_new_selftest.c:52:68: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( AXI_SLAVE8PORTS_NEW_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                    ^~
+AXI_Slave8Ports_new_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Finished building libraries
+11:35:26 **** Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/modular_arithmetic.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/modular_arithmetic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/modular_arithmetic.d" -MT"src/pke/modular_arithmetic.o" -o "src/pke/modular_arithmetic.o" "../src/pke/modular_arithmetic.cc"
+../src/pke/modular_arithmetic.cc: In function 'void mulMod(uint64_t*, uint64_t, uint64_t, uint64_t, uint64_t, uint64_t, uint64_t)':
+../src/pke/modular_arithmetic.cc:86:47: warning: variable 'dhmuh' set but not used [-Wunused-but-set-variable]
+  uint64_t dhmul_h, dhmul_l, dlmul_h, dlmul_l, dhmuh, dlmuh;
+                                               ^~~~~
+Finished building: ../src/pke/modular_arithmetic.cc
+ 
+Building file: ../src/pke/poly_arithmetic2.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/poly_arithmetic2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/poly_arithmetic2.d" -MT"src/pke/poly_arithmetic2.o" -o "src/pke/poly_arithmetic2.o" "../src/pke/poly_arithmetic2.c"
+Finished building: ../src/pke/poly_arithmetic2.c
+ 
+Building file: ../src/pke/randombytes.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/randombytes.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/randombytes.d" -MT"src/pke/randombytes.o" -o "src/pke/randombytes.o" "../src/pke/randombytes.c"
+Finished building: ../src/pke/randombytes.c
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building file: ../src/communication.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/communication.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/communication.d" -MT"src/communication.o" -o "src/communication.o" "../src/communication.c"
+In file included from ../src/communication.c:10:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/communication.c: In function 'void receive64(uint64_t*, uint32_t, uint32_t)':
+../src/communication.c:72:12: warning: comparison of integer expressions of different signedness: 'int' and 'uint32_t' {aka 'long unsigned int'} [-Wsign-compare]
+  for(i=0; i<num_words; i++)
+           ~^~~~~~~~~~
+../src/communication.c: In function 'void exeIns()':
+../src/communication.c:146:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  printf("FPGA cycle count: %u is equivalent to %u CPU cycle count\n", cycle_count, cycle_count*5);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~
+../src/communication.c:146:9: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat=]
+../src/communication.c:94:8: warning: unused variable 'tStart' [-Wunused-variable]
+  XTime tStart,tEnd;
+        ^~~~~~
+../src/communication.c:94:15: warning: unused variable 'tEnd' [-Wunused-variable]
+  XTime tStart,tEnd;
+               ^~~~
+Finished building: ../src/communication.c
+ 
+Building file: ../src/instruction.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/instruction.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/instruction.d" -MT"src/instruction.o" -o "src/instruction.o" "../src/instruction.c"
+../src/instruction.c: In function 'void init_INS_Poly_mult(long long unsigned int*, unsigned int, unsigned int, unsigned int)':
+../src/instruction.c:163:22: warning: unused variable 'program_word_5' [-Wunused-variable]
+   unsigned long long program_word_5 =  ((unsigned long long) 1<<35) + ((unsigned long long) OUT_ADDRESS<<25) + (768<<15)+(OUT_ADDRESS<<5) + 26;
+                      ^~~~~~~~~~~~~~
+Finished building: ../src/instruction.c
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:19:11: warning: unused variable 'i' [-Wunused-variable]
+  uint32_t i, j, r;
+           ^
+../src/main.cc:19:14: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i, j, r;
+              ^
+../src/main.cc:19:17: warning: unused variable 'r' [-Wunused-variable]
+  uint32_t i, j, r;
+                 ^
+../src/main.cc:20:11: warning: unused variable 'INS' [-Wunused-variable]
+  uint64_t INS[64];
+           ^~~
+../src/main.cc:21:11: warning: unused variable 'fpga_memory_data' [-Wunused-variable]
+  uint64_t fpga_memory_data[1024]; // This is a memory buffer in SW. This buffer is used to read contents from the BRAM-memory of FPGA.
+           ^~~~~~~~~~~~~~~~
+Finished building: ../src/main.cc
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 114420	   2584	67115808	67232812	401e42c	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:36:14 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:38:19 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/instruction.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/instruction.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/instruction.d" -MT"src/instruction.o" -o "src/instruction.o" "../src/instruction.c"
+Finished building: ../src/instruction.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 114484	   2584	67115808	67232876	401e46c	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:38:31 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:39:01 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 114484	   2584	67115808	67232876	401e46c	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:39:03 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:39:53 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:34:2: error: 'init_polymul' was not declared in this scope
+  init_polymul();
+  ^~~~~~~~~~~~
+../src/main.cc:34:2: note: suggested alternative: 'test_polymul'
+  init_polymul();
+  ^~~~~~~~~~~~
+  test_polymul
+../src/main.cc:19:11: warning: unused variable 'i' [-Wunused-variable]
+  uint32_t i, j, r;
+           ^
+../src/main.cc:19:14: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i, j, r;
+              ^
+../src/main.cc:19:17: warning: unused variable 'r' [-Wunused-variable]
+  uint32_t i, j, r;
+                 ^
+../src/main.cc:20:11: warning: unused variable 'INS' [-Wunused-variable]
+  uint64_t INS[64];
+           ^~~
+../src/main.cc:21:11: warning: unused variable 'fpga_memory_data' [-Wunused-variable]
+  uint64_t fpga_memory_data[1024]; // This is a memory buffer in SW. This buffer is used to read contents from the BRAM-memory of FPGA.
+           ^~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:43: src/main.o] Error 1
+11:40:03 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:19:11: warning: unused variable 'i' [-Wunused-variable]
+  uint32_t i, j, r;
+           ^
+../src/main.cc:19:14: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i, j, r;
+              ^
+../src/main.cc:19:17: warning: unused variable 'r' [-Wunused-variable]
+  uint32_t i, j, r;
+                 ^
+../src/main.cc:20:11: warning: unused variable 'INS' [-Wunused-variable]
+  uint64_t INS[64];
+           ^~~
+../src/main.cc:21:11: warning: unused variable 'fpga_memory_data' [-Wunused-variable]
+  uint64_t fpga_memory_data[1024]; // This is a memory buffer in SW. This buffer is used to read contents from the BRAM-memory of FPGA.
+           ^~~~~~~~~~~~~~~~
+Finished building: ../src/main.cc
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 114484	   2584	67115808	67232876	401e46c	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:40:06 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:19:11: warning: unused variable 'i' [-Wunused-variable]
+  uint32_t i, j, r;
+           ^
+../src/main.cc:19:14: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i, j, r;
+              ^
+../src/main.cc:19:17: warning: unused variable 'r' [-Wunused-variable]
+  uint32_t i, j, r;
+                 ^
+../src/main.cc:20:11: warning: unused variable 'INS' [-Wunused-variable]
+  uint64_t INS[64];
+           ^~~
+../src/main.cc:21:11: warning: unused variable 'fpga_memory_data' [-Wunused-variable]
+  uint64_t fpga_memory_data[1024]; // This is a memory buffer in SW. This buffer is used to read contents from the BRAM-memory of FPGA.
+           ^~~~~~~~~~~~~~~~
+Finished building: ../src/main.cc
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 114484	   2584	67115808	67232876	401e46c	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:40:11 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 114484	   2584	67115808	67232876	401e46c	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:47:03 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+../src/pke/test_polymul.c:57:14: warning: integer constant is so large that it is unsigned
+ uint64_t Q = 18434813901432784897;
+              ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'uint64_t mulmod(uint64_t, uint64_t)':
+../src/pke/test_polymul.c:70:12: error: 'ret' was not declared in this scope
+     return ret % Q;
+            ^~~
+../src/pke/test_polymul.c:70:12: note: suggested alternative: 'res'
+     return ret % Q;
+            ^~~
+            res
+../src/pke/test_polymul.c: In function 'void polymul(uint64_t*, uint64_t*, uint64_t*)':
+../src/pke/test_polymul.c:81:10: error: 'i' was not declared in this scope
+   result[i] = (C[i] - C[i + 256]) % Q;
+          ^
+../src/pke/test_polymul.c:81:10: note: suggested alternative: 'iA'
+   result[i] = (C[i] - C[i + 256]) % Q;
+          ^
+          iA
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+11:47:15 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+../src/pke/test_polymul.c:57:14: warning: integer constant is so large that it is unsigned
+ uint64_t Q = 18434813901432784897;
+              ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void polymul(uint64_t*, uint64_t*, uint64_t*)':
+../src/pke/test_polymul.c:81:10: error: 'i' was not declared in this scope
+   result[i] = (C[i] - C[i + 256]) % Q;
+          ^
+../src/pke/test_polymul.c:81:10: note: suggested alternative: 'iA'
+   result[i] = (C[i] - C[i + 256]) % Q;
+          ^
+          iA
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+11:47:20 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+../src/pke/test_polymul.c:57:14: warning: integer constant is so large that it is unsigned
+ uint64_t Q = 18434813901432784897;
+              ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void polymul(uint64_t*, uint64_t*, uint64_t*)':
+../src/pke/test_polymul.c:81:10: error: 'i' was not declared in this scope
+   result[i] = (C[i] - C[i + 256]) % Q;
+          ^
+../src/pke/test_polymul.c:81:10: note: suggested alternative: 'iA'
+   result[i] = (C[i] - C[i + 256]) % Q;
+          ^
+          iA
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+11:47:45 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+../src/pke/test_polymul.c:57:14: warning: integer constant is so large that it is unsigned
+ uint64_t Q = 18434813901432784897;
+              ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115128	   2592	67115808	67233528	401e6f8	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:47:48 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:49:18 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+../src/pke/test_polymul.c:57:14: warning: integer constant is so large that it is unsigned
+ uint64_t Q = 18434813901432784897;
+              ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:122:40: error: too few arguments to function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)'
+  poly_mult_HW(result_sw, poly_a, poly_b);
+                                        ^
+../src/pke/test_polymul.c:11:6: note: declared here
+ void poly_mult_HW(uint64_t *result, uint64_t *data1, uint64_t *data2, int idelay)
+      ^~~~~~~~~~~~
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+11:49:19 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+../src/pke/test_polymul.c:57:14: warning: integer constant is so large that it is unsigned
+ uint64_t Q = 18434813901432784897;
+              ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:122:40: error: too few arguments to function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)'
+  poly_mult_HW(result_sw, poly_a, poly_b);
+                                        ^
+../src/pke/test_polymul.c:11:6: note: declared here
+ void poly_mult_HW(uint64_t *result, uint64_t *data1, uint64_t *data2, int idelay)
+      ^~~~~~~~~~~~
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+11:49:39 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+../src/pke/test_polymul.c:57:14: warning: integer constant is so large that it is unsigned
+ uint64_t Q = 18434813901432784897;
+              ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115212	   2592	67115808	67233612	401e74c	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:49:47 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:50:35 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+../src/pke/test_polymul.c:57:14: warning: integer constant is so large that it is unsigned
+ uint64_t Q = 18434813901432784897;
+              ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'uint64_t mulmod(uint64_t, uint64_t)':
+../src/pke/test_polymul.c:63:5: error: 'uint128_t' was not declared in this scope
+     uint128_t x = 0;
+     ^~~~~~~~~
+../src/pke/test_polymul.c:63:5: note: suggested alternative: 'uint32_t'
+     uint128_t x = 0;
+     ^~~~~~~~~
+     uint32_t
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+11:51:01 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+../src/pke/test_polymul.c:57:14: warning: integer constant is so large that it is unsigned
+ uint64_t Q = 18434813901432784897;
+              ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'uint64_t mulmod(uint64_t, uint64_t)':
+../src/pke/test_polymul.c:63:5: error: '__uint128_t' was not declared in this scope
+     __uint128_t x = 0;
+     ^~~~~~~~~~~
+../src/pke/test_polymul.c:63:5: note: suggested alternative: '__uint32_t'
+     __uint128_t x = 0;
+     ^~~~~~~~~~~
+     __uint32_t
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+11:51:06 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+../src/pke/test_polymul.c:57:14: warning: integer constant is so large that it is unsigned
+ uint64_t Q = 18434813901432784897;
+              ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'uint64_t mulmod(uint64_t, uint64_t)':
+../src/pke/test_polymul.c:63:5: error: '__int128_t' was not declared in this scope
+     __int128_t x = 0;
+     ^~~~~~~~~~
+../src/pke/test_polymul.c:63:5: note: suggested alternative: '__int32_t'
+     __int128_t x = 0;
+     ^~~~~~~~~~
+     __int32_t
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+11:53:39 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115404	   2592	67115808	67233804	401e80c	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:53:43 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:56:43 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115596	   2592	67115808	67233996	401e8cc	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:56:45 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:57:21 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115364	   2592	67115808	67233764	401e7e4	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:57:22 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:58:00 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115364	   2592	67115808	67233764	401e7e4	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+11:58:02 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+11:58:42 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115428	   2592	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+12:02:24 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115428	   2592	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+12:04:08 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115428	   2592	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+12:04:39 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115428	   2592	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+12:05:07 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115428	   2592	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+12:10:33 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115428	   2592	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+12:10:59 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115428	   2592	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+12:11:00 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:29:40 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'uint64_t addmod(uint64_t, uint64_t)':
+../src/pke/test_polymul.c:61:42: error: a function-definition is not allowed here before '{' token
+  uint64_t addmod(uint64_t a, uint64_t b) {
+                                          ^
+../src/pke/test_polymul.c:68:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+12:29:41 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'uint64_t addmod(uint64_t, uint64_t)':
+../src/pke/test_polymul.c:61:42: error: a function-definition is not allowed here before '{' token
+  uint64_t addmod(uint64_t a, uint64_t b) {
+                                          ^
+../src/pke/test_polymul.c:68:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+12:29:50 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115428	   2592	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+12:30:22 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:01:54 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:04:11 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:05:09 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115428	   2592	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:07:05 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:13:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115428	   2592	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:07:12 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:07:43 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115436	   2584	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:07:47 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:16:46 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115436	   2584	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:17:09 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115436	   2584	67115808	67233828	401e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:17:10 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:18:06 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115436	   2584	33561376	33679396	201e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:18:10 **** Clean-only build of configuration Debug for project crypto_master ****
+make clean 
+rm -rf ./src/pke/modular_arithmetic.d  ./src/main.d ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o ./src/pke/poly_arithmetic2.d ./src/pke/randombytes.d ./src/pke/test_polymul.d  ./src/communication.d ./src/instruction.d ./src/platform.d crypto_master.elf.size  crypto_master.elf
+ 
+13:18:11 **** Clean-only build of project crypto_master_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+13:18:11 **** Build of project crypto_master_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src
+make -C ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src
+make -C ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling AXI_Slave8Ports_new...
+AXI_Slave8Ports_new_selftest.c: In function 'AXI_SLAVE8PORTS_NEW_Reg_SelfTest':
+AXI_Slave8Ports_new_selftest.c:52:68: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( AXI_SLAVE8PORTS_NEW_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                    ^~
+AXI_Slave8Ports_new_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Finished building libraries
+13:18:18 **** Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/modular_arithmetic.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/modular_arithmetic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/modular_arithmetic.d" -MT"src/pke/modular_arithmetic.o" -o "src/pke/modular_arithmetic.o" "../src/pke/modular_arithmetic.cc"
+../src/pke/modular_arithmetic.cc: In function 'void mulMod(uint64_t*, uint64_t, uint64_t, uint64_t, uint64_t, uint64_t, uint64_t)':
+../src/pke/modular_arithmetic.cc:86:47: warning: variable 'dhmuh' set but not used [-Wunused-but-set-variable]
+  uint64_t dhmul_h, dhmul_l, dlmul_h, dlmul_l, dhmuh, dlmuh;
+                                               ^~~~~
+Finished building: ../src/pke/modular_arithmetic.cc
+ 
+Building file: ../src/pke/poly_arithmetic2.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/poly_arithmetic2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/poly_arithmetic2.d" -MT"src/pke/poly_arithmetic2.o" -o "src/pke/poly_arithmetic2.o" "../src/pke/poly_arithmetic2.c"
+Finished building: ../src/pke/poly_arithmetic2.c
+ 
+Building file: ../src/pke/randombytes.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/randombytes.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/randombytes.d" -MT"src/pke/randombytes.o" -o "src/pke/randombytes.o" "../src/pke/randombytes.c"
+Finished building: ../src/pke/randombytes.c
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+Finished building: ../src/pke/test_polymul.c
+ 
+Building file: ../src/communication.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/communication.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/communication.d" -MT"src/communication.o" -o "src/communication.o" "../src/communication.c"
+In file included from ../src/communication.c:10:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/communication.c: In function 'void receive64(uint64_t*, uint32_t, uint32_t)':
+../src/communication.c:72:12: warning: comparison of integer expressions of different signedness: 'int' and 'uint32_t' {aka 'long unsigned int'} [-Wsign-compare]
+  for(i=0; i<num_words; i++)
+           ~^~~~~~~~~~
+../src/communication.c: In function 'void exeIns()':
+../src/communication.c:146:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  printf("FPGA cycle count: %u is equivalent to %u CPU cycle count\n", cycle_count, cycle_count*5);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~
+../src/communication.c:146:9: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat=]
+../src/communication.c:94:8: warning: unused variable 'tStart' [-Wunused-variable]
+  XTime tStart,tEnd;
+        ^~~~~~
+../src/communication.c:94:15: warning: unused variable 'tEnd' [-Wunused-variable]
+  XTime tStart,tEnd;
+               ^~~~
+Finished building: ../src/communication.c
+ 
+Building file: ../src/instruction.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/instruction.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/instruction.d" -MT"src/instruction.o" -o "src/instruction.o" "../src/instruction.c"
+Finished building: ../src/instruction.c
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:19:11: warning: unused variable 'i' [-Wunused-variable]
+  uint32_t i, j, r;
+           ^
+../src/main.cc:19:14: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i, j, r;
+              ^
+../src/main.cc:19:17: warning: unused variable 'r' [-Wunused-variable]
+  uint32_t i, j, r;
+                 ^
+../src/main.cc:20:11: warning: unused variable 'INS' [-Wunused-variable]
+  uint64_t INS[64];
+           ^~~
+../src/main.cc:21:11: warning: unused variable 'fpga_memory_data' [-Wunused-variable]
+  uint64_t fpga_memory_data[1024]; // This is a memory buffer in SW. This buffer is used to read contents from the BRAM-memory of FPGA.
+           ^~~~~~~~~~~~~~~~
+Finished building: ../src/main.cc
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115436	   2584	33561376	33679396	201e824	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:18:20 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:25:13 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:132:40: error: invalid conversion from 'uint32_t (*)(uint32_t)' {aka 'long unsigned int (*)(long unsigned int)'} to 'int' [-fpermissive]
+   poly_mult_HW(result, poly_a, poly_b, delay);
+                                        ^~~~~
+../src/pke/test_polymul.c:13:75: note:   initializing argument 4 of 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)'
+ void poly_mult_HW(uint64_t *result, uint64_t *data1, uint64_t *data2, int idelay)
+                                                                       ~~~~^~~~~~
+../src/pke/test_polymul.c:148:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (hw): %", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:148:9: warning: too many arguments for format [-Wformat-extra-args]
+../src/pke/test_polymul.c:149:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (sw): %", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:149:9: warning: too many arguments for format [-Wformat-extra-args]
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+13:25:31 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:132:40: error: invalid conversion from 'uint32_t (*)(uint32_t)' {aka 'long unsigned int (*)(long unsigned int)'} to 'int' [-fpermissive]
+   poly_mult_HW(result, poly_a, poly_b, delay);
+                                        ^~~~~
+../src/pke/test_polymul.c:13:75: note:   initializing argument 4 of 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)'
+ void poly_mult_HW(uint64_t *result, uint64_t *data1, uint64_t *data2, int idelay)
+                                                                       ~~~~^~~~~~
+../src/pke/test_polymul.c:148:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (hw): %", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:148:9: warning: too many arguments for format [-Wformat-extra-args]
+../src/pke/test_polymul.c:149:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (sw): %", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:149:9: warning: too many arguments for format [-Wformat-extra-args]
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+13:25:33 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:132:40: error: invalid conversion from 'uint32_t (*)(uint32_t)' {aka 'long unsigned int (*)(long unsigned int)'} to 'int' [-fpermissive]
+   poly_mult_HW(result, poly_a, poly_b, delay);
+                                        ^~~~~
+../src/pke/test_polymul.c:13:75: note:   initializing argument 4 of 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)'
+ void poly_mult_HW(uint64_t *result, uint64_t *data1, uint64_t *data2, int idelay)
+                                                                       ~~~~^~~~~~
+../src/pke/test_polymul.c:148:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (hw): %", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:148:9: warning: too many arguments for format [-Wformat-extra-args]
+../src/pke/test_polymul.c:149:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (sw): %", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:149:9: warning: too many arguments for format [-Wformat-extra-args]
+make: *** [src/pke/subdir.mk:40: src/pke/test_polymul.o] Error 1
+13:26:06 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:150:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (hw): %", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:150:9: warning: too many arguments for format [-Wformat-extra-args]
+../src/pke/test_polymul.c:151:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (sw): %", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:151:9: warning: too many arguments for format [-Wformat-extra-args]
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 114708	   2584	33561376	33678668	201e54c	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:26:08 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:26:48 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:163:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (hw): %", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:163:9: warning: too many arguments for format [-Wformat-extra-args]
+../src/pke/test_polymul.c:164:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (sw): %", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:164:9: warning: too many arguments for format [-Wformat-extra-args]
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115076	   2584	33561376	33679036	201e6bc	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:28:19 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:163:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (hw): %", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:163:9: warning: too many arguments for format [-Wformat-extra-args]
+../src/pke/test_polymul.c:164:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (sw): %", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:164:9: warning: too many arguments for format [-Wformat-extra-args]
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115160	   2584	33561376	33679120	201e710	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:28:20 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:29:59 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115160	   2584	16784160	16901904	101e710	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:30:03 **** Clean-only build of configuration Debug for project crypto_master ****
+make clean 
+rm -rf ./src/pke/modular_arithmetic.d  ./src/main.d ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o ./src/pke/poly_arithmetic2.d ./src/pke/randombytes.d ./src/pke/test_polymul.d  ./src/communication.d ./src/instruction.d ./src/platform.d crypto_master.elf.size  crypto_master.elf
+ 
+13:30:03 **** Clean-only build of project crypto_master_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+13:30:03 **** Build of project crypto_master_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src
+make -C ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src
+make -C ps7_cortexa9_0/libsrc/AXI_Slave8Ports_new_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling AXI_Slave8Ports_new...
+AXI_Slave8Ports_new_selftest.c: In function 'AXI_SLAVE8PORTS_NEW_Reg_SelfTest':
+AXI_Slave8Ports_new_selftest.c:52:68: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( AXI_SLAVE8PORTS_NEW_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                    ^~
+AXI_Slave8Ports_new_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Finished building libraries
+13:30:10 **** Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/modular_arithmetic.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/modular_arithmetic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/modular_arithmetic.d" -MT"src/pke/modular_arithmetic.o" -o "src/pke/modular_arithmetic.o" "../src/pke/modular_arithmetic.cc"
+../src/pke/modular_arithmetic.cc: In function 'void mulMod(uint64_t*, uint64_t, uint64_t, uint64_t, uint64_t, uint64_t, uint64_t)':
+../src/pke/modular_arithmetic.cc:86:47: warning: variable 'dhmuh' set but not used [-Wunused-but-set-variable]
+  uint64_t dhmul_h, dhmul_l, dlmul_h, dlmul_l, dhmuh, dlmuh;
+                                               ^~~~~
+Finished building: ../src/pke/modular_arithmetic.cc
+ 
+Building file: ../src/pke/poly_arithmetic2.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/poly_arithmetic2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/poly_arithmetic2.d" -MT"src/pke/poly_arithmetic2.o" -o "src/pke/poly_arithmetic2.o" "../src/pke/poly_arithmetic2.c"
+Finished building: ../src/pke/poly_arithmetic2.c
+ 
+Building file: ../src/pke/randombytes.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/randombytes.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/randombytes.d" -MT"src/pke/randombytes.o" -o "src/pke/randombytes.o" "../src/pke/randombytes.c"
+Finished building: ../src/pke/randombytes.c
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:163:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (hw): %", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:163:9: warning: too many arguments for format [-Wformat-extra-args]
+../src/pke/test_polymul.c:164:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (sw): %", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:164:9: warning: too many arguments for format [-Wformat-extra-args]
+Finished building: ../src/pke/test_polymul.c
+ 
+Building file: ../src/communication.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/communication.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/communication.d" -MT"src/communication.o" -o "src/communication.o" "../src/communication.c"
+In file included from ../src/communication.c:10:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/communication.c: In function 'void receive64(uint64_t*, uint32_t, uint32_t)':
+../src/communication.c:72:12: warning: comparison of integer expressions of different signedness: 'int' and 'uint32_t' {aka 'long unsigned int'} [-Wsign-compare]
+  for(i=0; i<num_words; i++)
+           ~^~~~~~~~~~
+../src/communication.c: In function 'void exeIns()':
+../src/communication.c:146:9: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  printf("FPGA cycle count: %u is equivalent to %u CPU cycle count\n", cycle_count, cycle_count*5);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~
+../src/communication.c:146:9: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat=]
+../src/communication.c:94:8: warning: unused variable 'tStart' [-Wunused-variable]
+  XTime tStart,tEnd;
+        ^~~~~~
+../src/communication.c:94:15: warning: unused variable 'tEnd' [-Wunused-variable]
+  XTime tStart,tEnd;
+               ^~~~
+Finished building: ../src/communication.c
+ 
+Building file: ../src/instruction.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/instruction.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/instruction.d" -MT"src/instruction.o" -o "src/instruction.o" "../src/instruction.c"
+Finished building: ../src/instruction.c
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:19:11: warning: unused variable 'i' [-Wunused-variable]
+  uint32_t i, j, r;
+           ^
+../src/main.cc:19:14: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i, j, r;
+              ^
+../src/main.cc:19:17: warning: unused variable 'r' [-Wunused-variable]
+  uint32_t i, j, r;
+                 ^
+../src/main.cc:20:11: warning: unused variable 'INS' [-Wunused-variable]
+  uint64_t INS[64];
+           ^~~
+../src/main.cc:21:11: warning: unused variable 'fpga_memory_data' [-Wunused-variable]
+  uint64_t fpga_memory_data[1024]; // This is a memory buffer in SW. This buffer is used to read contents from the BRAM-memory of FPGA.
+           ^~~~~~~~~~~~~~~~
+Finished building: ../src/main.cc
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115160	   2584	16784160	16901904	101e710	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:30:13 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:32:09 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:164:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (hw): %", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:164:9: warning: too many arguments for format [-Wformat-extra-args]
+../src/pke/test_polymul.c:165:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (sw): %", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:165:9: warning: too many arguments for format [-Wformat-extra-args]
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115160	   2584	16784160	16901904	101e710	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:32:10 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:32:51 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:42:41 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:164:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (hw): %", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:164:9: warning: too many arguments for format [-Wformat-extra-args]
+../src/pke/test_polymul.c:165:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (sw): %", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:165:9: warning: too many arguments for format [-Wformat-extra-args]
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115160	   2584	16784160	16901904	101e710	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:49:45 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:169:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (hw): %", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:169:9: warning: too many arguments for format [-Wformat-extra-args]
+../src/pke/test_polymul.c:170:9: warning: spurious trailing '%' in format [-Wformat=]
+  printf("Average total time (sw): %", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:170:9: warning: too many arguments for format [-Wformat-extra-args]
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115412	   2584	16784160	16902156	101e80c	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+13:57:23 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:06:02 **** Auto Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:156:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint64_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("Average total time (hw): %d", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:157:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint64_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("Average total time (sw): %d", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115112	   2584	16784160	16901856	101e6e0	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 
+14:06:03 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+14:12:27 **** Incremental Build of configuration Debug for project crypto_master ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/pke/test_polymul.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pke/test_polymul.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../crypto_master_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pke/test_polymul.d" -MT"src/pke/test_polymul.o" -o "src/pke/test_polymul.o" "../src/pke/test_polymul.c"
+In file included from ../src/pke/test_polymul.c:2:
+../../crypto_master_bsp/ps7_cortexa9_0/include/xtime_l.h:87:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/pke/test_polymul.c: In function 'void poly_mult_HW(uint64_t*, uint64_t*, uint64_t*, int)':
+../src/pke/test_polymul.c:15:13: warning: unused variable 'j' [-Wunused-variable]
+  uint32_t i,j;
+             ^
+../src/pke/test_polymul.c: In function 'void test_polymul()':
+../src/pke/test_polymul.c:156:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint64_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("Average total time (hw): %d\n", hw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/pke/test_polymul.c:157:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint64_t' {aka 'long long unsigned int'} [-Wformat=]
+  printf("Average total time (sw): %d\n", sw_time_sum / N_TESTS);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/pke/test_polymul.c
+ 
+Building target: crypto_master.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../crypto_master_bsp/ps7_cortexa9_0/lib -o "crypto_master.elf" ./src/pke/modular_arithmetic.o ./src/pke/poly_arithmetic2.o ./src/pke/randombytes.o ./src/pke/test_polymul.o  ./src/communication.o ./src/instruction.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: crypto_master.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size crypto_master.elf  |tee "crypto_master.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115120	   2584	16784160	16901864	101e6e8	crypto_master.elf
+Finished building: crypto_master.elf.size
+ 

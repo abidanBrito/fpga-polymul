@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_polmul_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_polmul" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5350800000fs"></ZoomStartTime>
+      <ZoomEndTime time="5587800001fs"></ZoomEndTime>
+      <Cursor1Time time="5428800000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="277"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wave_markers>
+      <marker label="" time="75000000" />
+      <marker label="" time="65000000" />
+      <marker label="" time="55100000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/tb_polmul/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/write_address">
+      <obj_property name="ElementShortName">write_address[9:0]</obj_property>
+      <obj_property name="ObjectShortName">write_address[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_polmul/pmult/read_poly_op_sel">
+      <obj_property name="ElementShortName">read_poly_op_sel</obj_property>
+      <obj_property name="ObjectShortName">read_poly_op_sel</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/read_address">
+      <obj_property name="ElementShortName">read_address[9:0]</obj_property>
+      <obj_property name="ObjectShortName">read_address[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/write_address">
+      <obj_property name="ElementShortName">write_address[9:0]</obj_property>
+      <obj_property name="ObjectShortName">write_address[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_polmul/pmult/wea">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_polmul/pmult/done">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/mode_reg">
+      <obj_property name="ElementShortName">mode_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">mode_reg[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/state">
+      <obj_property name="ElementShortName">state[11:0]</obj_property>
+      <obj_property name="ObjectShortName">state[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_polmul/pmult/odd_cycle">
+      <obj_property name="ElementShortName">odd_cycle</obj_property>
+      <obj_property name="ObjectShortName">odd_cycle</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_polmul/pmult/forward">
+      <obj_property name="ElementShortName">forward</obj_property>
+      <obj_property name="ObjectShortName">forward</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_polmul/pmult/element_wise">
+      <obj_property name="ElementShortName">element_wise</obj_property>
+      <obj_property name="ObjectShortName">element_wise</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_polmul/pmult/input_start">
+      <obj_property name="ElementShortName">input_start</obj_property>
+      <obj_property name="ObjectShortName">input_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_polmul/pmult/output_start">
+      <obj_property name="ElementShortName">output_start</obj_property>
+      <obj_property name="ObjectShortName">output_start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/operand_a_out">
+      <obj_property name="ElementShortName">operand_a_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">operand_a_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/operand_b_out">
+      <obj_property name="ElementShortName">operand_b_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">operand_b_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/data128_out">
+      <obj_property name="ElementShortName">data128_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data128_out[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/output_gen/out_low">
+      <obj_property name="ElementShortName">out_low[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out_low[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/output_gen/out_high">
+      <obj_property name="ElementShortName">out_high[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out_high[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/input_gen/operand_a">
+      <obj_property name="ElementShortName">operand_a[63:0]</obj_property>
+      <obj_property name="ObjectShortName">operand_a[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/input_gen/operand_b">
+      <obj_property name="ElementShortName">operand_b[63:0]</obj_property>
+      <obj_property name="ObjectShortName">operand_b[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/input_gen/operand_w">
+      <obj_property name="ElementShortName">operand_w[63:0]</obj_property>
+      <obj_property name="ObjectShortName">operand_w[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/output_gen/result_a">
+      <obj_property name="ElementShortName">result_a[63:0]</obj_property>
+      <obj_property name="ObjectShortName">result_a[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/output_gen/result_b">
+      <obj_property name="ElementShortName">result_b[63:0]</obj_property>
+      <obj_property name="ObjectShortName">result_b[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/butterfly/Mult/mul_ina">
+      <obj_property name="ElementShortName">mul_ina[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_ina[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/butterfly/Mult/mul_inb">
+      <obj_property name="ElementShortName">mul_inb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_inb[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_polmul/pmult/butterfly/Mult/mul_out">
+      <obj_property name="ElementShortName">mul_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_out[63:0]</obj_property>
+   </wvobject>
+</wave_config>

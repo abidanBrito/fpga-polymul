@@ -1,0 +1,787 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jan 12 09:01:43 2022
+# Process ID: 1353369
+# Current directory: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1
+# Command line: vivado
+# Log file: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/vivado.log
+# Journal file: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.xpr
+INFO: [Project 1-313] Project file moved from '/home/amert/Downloads/vivado-dump-output/CryptoProcessor_2021_22/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- tugraz.at:user:AXI_Slave8Ports_new:1.0 - AXI_Slave8Ports_new_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:module_ref:ComputeCoreWrapper:1.0 - ComputeCoreWrapper_0
+Successfully read diagram <cryptoprocessor> from BD file </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd>
+Upgrading '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd'
+INFO: [IP_Flow 19-3420] Updated cryptoprocessor_ComputeCoreWrapper_0_0 to use current project options
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ui/bd_2914acb1.ui> 
+upgrade_ip: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 6767.832 ; gain = 5.547 ; free physical = 1281 ; free virtual = 9201
+update_module_reference: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 6767.832 ; gain = 5.547 ; free physical = 1281 ; free virtual = 9201
+close_bd_design [get_bd_designs cryptoprocessor]
+update_compile_order -fileset sources_1
+add_files -norecurse /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.xci
+export_ip_user_files -of_objects  [get_files  /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.xci] -lib_map_path [list {modelsim=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/modelsim} {questa=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/questa} {ies=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/ies} {xcelium=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/xcelium} {vcs=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/vcs} {riviera=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/riviera}] -force -quiet
+update_compile_order -fileset sources_1
+port_size p 48 a 25 m 43 b 18 c 48
+op_width a 25 b 18 a_type 1 b_type 1 swap false
+widths a 20 a_type 1 b 10 b_type 1
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+port_size p 48 a 25 m 43 b 18 c 48
+op_width a 25 b 18 a_type 1 b_type 1 swap false
+widths a 20 a_type 1 b 10 b_type 1
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+reset_run synth_1
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-927] Following properties on pin /ComputeCoreWrapper_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=cryptoprocessor_processing_system7_0_0_FCLK_CLK0 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/sim/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hdl/cryptoprocessor_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_Slave8Ports_new_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ComputeCoreWrapper_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ip/cryptoprocessor_auto_pc_0/cryptoprocessor_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor.hwh
+Generated Block Design Tcl file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor_bd.tcl
+Generated Hardware Definition File /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cryptoprocessor_auto_pc_0, cache-ID = bff70cfbc061a5b1; cache size = 4.766 MB.
+[Wed Jan 12 09:09:24 2022] Launched cryptoprocessor_ComputeCoreWrapper_0_0_synth_1, synth_1...
+Run output will be captured here:
+cryptoprocessor_ComputeCoreWrapper_0_0_synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/cryptoprocessor_ComputeCoreWrapper_0_0_synth_1/runme.log
+synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/synth_1/runme.log
+[Wed Jan 12 09:09:24 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+launch_runs: Time (s): cpu = 00:00:45 ; elapsed = 00:00:31 . Memory (MB): peak = 7092.480 ; gain = 156.152 ; free physical = 1407 ; free virtual = 9311
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- tugraz.at:user:AXI_Slave8Ports_new:1.0 - AXI_Slave8Ports_new_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:module_ref:ComputeCoreWrapper:1.0 - ComputeCoreWrapper_0
+Successfully read diagram <cryptoprocessor> from BD file </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd>
+Upgrading '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd'
+INFO: [IP_Flow 19-3420] Updated cryptoprocessor_ComputeCoreWrapper_0_0 to use current project options
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ui/bd_2914acb1.ui> 
+reset_run synth_1
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-927] Following properties on pin /ComputeCoreWrapper_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=cryptoprocessor_processing_system7_0_0_FCLK_CLK0 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/sim/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hdl/cryptoprocessor_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_Slave8Ports_new_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ComputeCoreWrapper_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ip/cryptoprocessor_auto_pc_0/cryptoprocessor_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor.hwh
+Generated Block Design Tcl file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor_bd.tcl
+Generated Hardware Definition File /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cryptoprocessor_auto_pc_0, cache-ID = bff70cfbc061a5b1; cache size = 4.766 MB.
+[Wed Jan 12 09:10:26 2022] Launched cryptoprocessor_ComputeCoreWrapper_0_0_synth_1, synth_1...
+Run output will be captured here:
+cryptoprocessor_ComputeCoreWrapper_0_0_synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/cryptoprocessor_ComputeCoreWrapper_0_0_synth_1/runme.log
+synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/synth_1/runme.log
+[Wed Jan 12 09:10:26 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+launch_runs: Time (s): cpu = 00:01:08 ; elapsed = 00:00:28 . Memory (MB): peak = 7158.695 ; gain = 66.215 ; free physical = 1315 ; free virtual = 9234
+reset_run synth_1
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+[Wed Jan 12 09:18:00 2022] Launched synth_1...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/synth_1/runme.log
+[Wed Jan 12 09:18:00 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+open_run impl_3
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Netlist 29-17] Analyzing 274 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00,29 ; elapsed = 00:00:00,29 . Memory (MB): peak = 7743.566 ; gain = 0.000 ; free physical = 1386 ; free virtual = 8481
+Restored from archive | CPU: 0,290000 secs | Memory: 4,465187 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00,29 ; elapsed = 00:00:00,29 . Memory (MB): peak = 7743.566 ; gain = 0.000 ; free physical = 1386 ; free virtual = 8481
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7743.566 ; gain = 0.000 ; free physical = 1387 ; free virtual = 8482
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 10 instances
+
+open_run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 7963.027 ; gain = 779.766 ; free physical = 1228 ; free virtual = 8336
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 100 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Vivado 12-4159] Implementation run is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-run implementation and re-generate bitstream before doing hardware export.
+file copy -force /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+reset_run synth_1
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+[Wed Jan 12 09:38:46 2022] Launched synth_1...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/synth_1/runme.log
+[Wed Jan 12 09:38:46 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+close_design
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+Upgrading '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd'
+INFO: [IP_Flow 19-3420] Updated cryptoprocessor_ComputeCoreWrapper_0_0 to use current project options
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+close_bd_design [get_bd_designs cryptoprocessor]
+reset_run synth_1
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-927] Following properties on pin /ComputeCoreWrapper_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=cryptoprocessor_processing_system7_0_0_FCLK_CLK0 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/sim/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hdl/cryptoprocessor_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_Slave8Ports_new_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ComputeCoreWrapper_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ip/cryptoprocessor_auto_pc_0/cryptoprocessor_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor.hwh
+Generated Block Design Tcl file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor_bd.tcl
+Generated Hardware Definition File /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cryptoprocessor_auto_pc_0, cache-ID = bff70cfbc061a5b1; cache size = 4,766 MB.
+[Wed Jan 12 09:39:37 2022] Launched cryptoprocessor_ComputeCoreWrapper_0_0_synth_1, synth_1...
+Run output will be captured here:
+cryptoprocessor_ComputeCoreWrapper_0_0_synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/cryptoprocessor_ComputeCoreWrapper_0_0_synth_1/runme.log
+synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/synth_1/runme.log
+[Wed Jan 12 09:39:37 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+launch_runs: Time (s): cpu = 00:00:38 ; elapsed = 00:00:29 . Memory (MB): peak = 8056.094 ; gain = 0.000 ; free physical = 1731 ; free virtual = 8394
+file copy -force /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/trng_wrapper.v:77]
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<=". [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/trng_wrapper.v:77]
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- tugraz.at:user:AXI_Slave8Ports_new:1.0 - AXI_Slave8Ports_new_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:module_ref:ComputeCoreWrapper:1.0 - ComputeCoreWrapper_0
+Successfully read diagram <cryptoprocessor> from BD file </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd>
+Upgrading '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd'
+INFO: [IP_Flow 19-3420] Updated cryptoprocessor_ComputeCoreWrapper_0_0 to use current project options
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ui/bd_2914acb1.ui> 
+update_module_reference: Time (s): cpu = 00:00:31 ; elapsed = 00:00:14 . Memory (MB): peak = 8056.094 ; gain = 0.000 ; free physical = 1211 ; free virtual = 7588
+close_bd_design [get_bd_designs cryptoprocessor]
+open_run impl_3
+INFO: [Netlist 29-17] Analyzing 231 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00,30 ; elapsed = 00:00:00,29 . Memory (MB): peak = 8056.094 ; gain = 0.000 ; free physical = 1003 ; free virtual = 7381
+Restored from archive | CPU: 0,300000 secs | Memory: 3,888512 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00,30 ; elapsed = 00:00:00,29 . Memory (MB): peak = 8056.094 ; gain = 0.000 ; free physical = 1003 ; free virtual = 7381
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8056.094 ; gain = 0.000 ; free physical = 1004 ; free virtual = 7383
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 10 instances
+
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 30 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-927] Following properties on pin /ComputeCoreWrapper_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=cryptoprocessor_processing_system7_0_0_FCLK_CLK0 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/sim/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hdl/cryptoprocessor_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_Slave8Ports_new_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ComputeCoreWrapper_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ip/cryptoprocessor_auto_pc_0/cryptoprocessor_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor.hwh
+Generated Block Design Tcl file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor_bd.tcl
+Generated Hardware Definition File /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cryptoprocessor_auto_pc_0, cache-ID = bff70cfbc061a5b1; cache size = 4,766 MB.
+[Wed Jan 12 09:53:00 2022] Launched cryptoprocessor_ComputeCoreWrapper_0_0_synth_1, synth_1...
+Run output will be captured here:
+cryptoprocessor_ComputeCoreWrapper_0_0_synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/cryptoprocessor_ComputeCoreWrapper_0_0_synth_1/runme.log
+synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/synth_1/runme.log
+[Wed Jan 12 09:53:01 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+launch_runs: Time (s): cpu = 00:00:34 ; elapsed = 00:00:28 . Memory (MB): peak = 8294.434 ; gain = 101.875 ; free physical = 925 ; free virtual = 7293
+close_design
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- tugraz.at:user:AXI_Slave8Ports_new:1.0 - AXI_Slave8Ports_new_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:module_ref:ComputeCoreWrapper:1.0 - ComputeCoreWrapper_0
+Successfully read diagram <cryptoprocessor> from BD file </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd>
+Upgrading '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd'
+INFO: [IP_Flow 19-3420] Updated cryptoprocessor_ComputeCoreWrapper_0_0 to use current project options
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ui/bd_2914acb1.ui> 
+close_bd_design [get_bd_designs cryptoprocessor]
+reset_run synth_1
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-927] Following properties on pin /ComputeCoreWrapper_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=cryptoprocessor_processing_system7_0_0_FCLK_CLK0 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/sim/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hdl/cryptoprocessor_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_Slave8Ports_new_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ComputeCoreWrapper_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ip/cryptoprocessor_auto_pc_0/cryptoprocessor_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor.hwh
+Generated Block Design Tcl file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor_bd.tcl
+Generated Hardware Definition File /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cryptoprocessor_auto_pc_0, cache-ID = bff70cfbc061a5b1; cache size = 4,766 MB.
+[Wed Jan 12 09:54:37 2022] Launched cryptoprocessor_ComputeCoreWrapper_0_0_synth_1, synth_1...
+Run output will be captured here:
+cryptoprocessor_ComputeCoreWrapper_0_0_synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/cryptoprocessor_ComputeCoreWrapper_0_0_synth_1/runme.log
+synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/synth_1/runme.log
+[Wed Jan 12 09:54:37 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+launch_runs: Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 8294.434 ; gain = 0.000 ; free physical = 1185 ; free virtual = 7543
+file copy -force /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- tugraz.at:user:AXI_Slave8Ports_new:1.0 - AXI_Slave8Ports_new_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:module_ref:ComputeCoreWrapper:1.0 - ComputeCoreWrapper_0
+Successfully read diagram <cryptoprocessor> from BD file </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd>
+Upgrading '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd'
+INFO: [IP_Flow 19-3420] Updated cryptoprocessor_ComputeCoreWrapper_0_0 to use current project options
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ui/bd_2914acb1.ui> 
+update_module_reference: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 8294.434 ; gain = 0.000 ; free physical = 1073 ; free virtual = 7441
+close_bd_design [get_bd_designs cryptoprocessor]
+add_files -norecurse /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.xci
+CRITICAL WARNING: [Vivado 12-1462] The source file is already part of the fileset 'sources_1'. Requested source '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.xci' will not be added.
+export_ip_user_files -of_objects  [get_files  /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.xci] -lib_map_path [list {modelsim=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/modelsim} {questa=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/questa} {ies=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/ies} {xcelium=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/xcelium} {vcs=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/vcs} {riviera=/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.cache/compile_simlib/riviera}] -force -quiet
+add_files -norecurse {/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.veo /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.vho}
+CRITICAL WARNING: [filemgmt 20-1440] File '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.veo' already exists in the project as a part of sub-design file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.xci'. Explicitly adding the file outside the scope of the sub-design can lead to unintended behaviors and is not recommended.
+CRITICAL WARNING: [filemgmt 20-1440] File '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.vho' already exists in the project as a part of sub-design file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.xci'. Explicitly adding the file outside the scope of the sub-design can lead to unintended behaviors and is not recommended.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.veo] -no_script -reset -force -quiet
+remove_files  /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.veo
+export_ip_user_files -of_objects  [get_files /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.vho] -no_script -reset -force -quiet
+remove_files  /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/ip/DSP_mult/DSP_mult.vho
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- tugraz.at:user:AXI_Slave8Ports_new:1.0 - AXI_Slave8Ports_new_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:module_ref:ComputeCoreWrapper:1.0 - ComputeCoreWrapper_0
+Successfully read diagram <cryptoprocessor> from BD file </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd>
+Upgrading '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd'
+INFO: [IP_Flow 19-3420] Updated cryptoprocessor_ComputeCoreWrapper_0_0 to use current project options
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ui/bd_2914acb1.ui> 
+close_bd_design [get_bd_designs cryptoprocessor]
+port_size p 48 a 25 m 43 b 18 c 48
+op_width a 25 b 18 a_type 1 b_type 1 swap false
+widths a 20 a_type 1 b 10 b_type 1
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+port_size p 48 a 25 m 43 b 18 c 48
+op_width a 25 b 18 a_type 1 b_type 1 swap false
+widths a 20 a_type 1 b 10 b_type 1
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+get_hybrid_configuration a 20 b 10 a_type 1 b_type 1
+get_hybrid_configuration p 48 m 43 a 25 b 18 c 48
+1x1 base mult
+hybrid configuration is 0
+open_run impl_3
+INFO: [Netlist 29-17] Analyzing 231 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00,32 ; elapsed = 00:00:00,31 . Memory (MB): peak = 8343.453 ; gain = 0.000 ; free physical = 933 ; free virtual = 7304
+Restored from archive | CPU: 0,330000 secs | Memory: 3,894226 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00,32 ; elapsed = 00:00:00,31 . Memory (MB): peak = 8343.453 ; gain = 0.000 ; free physical = 933 ; free virtual = 7303
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8343.453 ; gain = 0.000 ; free physical = 934 ; free virtual = 7304
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 10 instances
+
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_utilization -name utilization_1
+reset_run synth_1
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-927] Following properties on pin /ComputeCoreWrapper_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=cryptoprocessor_processing_system7_0_0_FCLK_CLK0 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/sim/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hdl/cryptoprocessor_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_Slave8Ports_new_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ComputeCoreWrapper_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ip/cryptoprocessor_auto_pc_0/cryptoprocessor_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor.hwh
+Generated Block Design Tcl file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor_bd.tcl
+Generated Hardware Definition File /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cryptoprocessor_auto_pc_0, cache-ID = bff70cfbc061a5b1; cache size = 4,766 MB.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+launch_runs: Time (s): cpu = 00:01:00 ; elapsed = 00:00:41 . Memory (MB): peak = 8515.258 ; gain = 95.715 ; free physical = 652 ; free virtual = 7057
+INFO: [Common 17-344] 'launch_runs' was cancelled
+close_design
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- tugraz.at:user:AXI_Slave8Ports_new:1.0 - AXI_Slave8Ports_new_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:module_ref:ComputeCoreWrapper:1.0 - ComputeCoreWrapper_0
+Successfully read diagram <cryptoprocessor> from BD file </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd>
+Upgrading '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd'
+INFO: [IP_Flow 19-3420] Updated cryptoprocessor_ComputeCoreWrapper_0_0 to use current project options
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ui/bd_2914acb1.ui> 
+close_bd_design [get_bd_designs cryptoprocessor]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+set_property strategy {Vivado Implementation Defaults} [get_runs impl_3]
+set_property STEPS.OPT_DESIGN.ARGS.DIRECTIVE ExploreArea [get_runs impl_3]
+set_property STEPS.PLACE_DESIGN.ARGS.DIRECTIVE Explore [get_runs impl_3]
+set_property STEPS.PHYS_OPT_DESIGN.ARGS.DIRECTIVE Explore [get_runs impl_3]
+set_property STEPS.ROUTE_DESIGN.ARGS.DIRECTIVE AggressiveExplore [get_runs impl_3]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/common_blocks/ComputeCoreWrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/trng_ro.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/common_blocks/ComputeCore.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/trng_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/common_blocks/ComputeCoreWrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/trng_ro.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/common_blocks/ComputeCore.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/trng_wrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/common_blocks/ComputeCoreWrapper.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/trng_ro.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/common_blocks/ComputeCore.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/Verilog_src/trng/RO_rng/trng_wrapper.v:]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-927] Following properties on pin /ComputeCoreWrapper_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=cryptoprocessor_processing_system7_0_0_FCLK_CLK0 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/sim/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hdl/cryptoprocessor_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_Slave8Ports_new_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ComputeCoreWrapper_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ip/cryptoprocessor_auto_pc_0/cryptoprocessor_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor.hwh
+Generated Block Design Tcl file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor_bd.tcl
+Generated Hardware Definition File /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cryptoprocessor_auto_pc_0, cache-ID = bff70cfbc061a5b1; cache size = 4,766 MB.
+[Wed Jan 12 10:13:53 2022] Launched cryptoprocessor_ComputeCoreWrapper_0_0_synth_1, synth_1...
+Run output will be captured here:
+cryptoprocessor_ComputeCoreWrapper_0_0_synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/cryptoprocessor_ComputeCoreWrapper_0_0_synth_1/runme.log
+synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/synth_1/runme.log
+[Wed Jan 12 10:13:53 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+launch_runs: Time (s): cpu = 00:01:17 ; elapsed = 00:00:58 . Memory (MB): peak = 8539.270 ; gain = 0.000 ; free physical = 789 ; free virtual = 5913
+file copy -force /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- tugraz.at:user:AXI_Slave8Ports_new:1.0 - AXI_Slave8Ports_new_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:module_ref:ComputeCoreWrapper:1.0 - ComputeCoreWrapper_0
+Successfully read diagram <cryptoprocessor> from BD file </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd>
+Upgrading '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd'
+INFO: [IP_Flow 19-3420] Updated cryptoprocessor_ComputeCoreWrapper_0_0 to use current project options
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ui/bd_2914acb1.ui> 
+update_module_reference: Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 8549.273 ; gain = 0.000 ; free physical = 2962 ; free virtual = 7139
+close_bd_design [get_bd_designs cryptoprocessor]
+reset_run synth_1
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-927] Following properties on pin /ComputeCoreWrapper_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=cryptoprocessor_processing_system7_0_0_FCLK_CLK0 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/sim/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hdl/cryptoprocessor_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_Slave8Ports_new_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ComputeCoreWrapper_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ip/cryptoprocessor_auto_pc_0/cryptoprocessor_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor.hwh
+Generated Block Design Tcl file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor_bd.tcl
+Generated Hardware Definition File /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cryptoprocessor_auto_pc_0, cache-ID = bff70cfbc061a5b1; cache size = 4,766 MB.
+[Wed Jan 12 10:28:47 2022] Launched cryptoprocessor_ComputeCoreWrapper_0_0_synth_1, synth_1...
+Run output will be captured here:
+cryptoprocessor_ComputeCoreWrapper_0_0_synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/cryptoprocessor_ComputeCoreWrapper_0_0_synth_1/runme.log
+synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/synth_1/runme.log
+[Wed Jan 12 10:28:47 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+launch_runs: Time (s): cpu = 00:00:36 ; elapsed = 00:00:28 . Memory (MB): peak = 8549.273 ; gain = 0.000 ; free physical = 2997 ; free virtual = 7152
+launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+file copy -force /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+reset_run synth_1
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- tugraz.at:user:AXI_Slave8Ports_new:1.0 - AXI_Slave8Ports_new_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:module_ref:ComputeCoreWrapper:1.0 - ComputeCoreWrapper_0
+Successfully read diagram <cryptoprocessor> from BD file </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd>
+Upgrading '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd'
+INFO: [IP_Flow 19-3420] Updated cryptoprocessor_ComputeCoreWrapper_0_0 to use current project options
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ui/bd_2914acb1.ui> 
+launch_runs impl_3 -jobs 4
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-927] Following properties on pin /ComputeCoreWrapper_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=cryptoprocessor_processing_system7_0_0_FCLK_CLK0 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/sim/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hdl/cryptoprocessor_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_Slave8Ports_new_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ComputeCoreWrapper_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ip/cryptoprocessor_auto_pc_0/cryptoprocessor_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor.hwh
+Generated Block Design Tcl file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor_bd.tcl
+Generated Hardware Definition File /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cryptoprocessor_auto_pc_0, cache-ID = bff70cfbc061a5b1; cache size = 4,766 MB.
+[Wed Jan 12 10:51:28 2022] Launched cryptoprocessor_ComputeCoreWrapper_0_0_synth_1, synth_1...
+Run output will be captured here:
+cryptoprocessor_ComputeCoreWrapper_0_0_synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/cryptoprocessor_ComputeCoreWrapper_0_0_synth_1/runme.log
+synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/synth_1/runme.log
+[Wed Jan 12 10:51:28 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+launch_runs: Time (s): cpu = 00:00:39 ; elapsed = 00:00:20 . Memory (MB): peak = 8558.242 ; gain = 8.969 ; free physical = 3689 ; free virtual = 7808
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+[Wed Jan 12 10:57:56 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+file copy -force /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+update_module_reference cryptoprocessor_ComputeCoreWrapper_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_new_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXI_Slave8Ports_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/ip_repo/AXIslave_1.0'.
+Upgrading '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd'
+INFO: [IP_Flow 19-3420] Updated cryptoprocessor_ComputeCoreWrapper_0_0 to use current project options
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+close_bd_design [get_bd_designs cryptoprocessor]
+reset_run synth_1
+launch_runs impl_3 -to_step write_bitstream -jobs 4
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+WARNING: [BD 41-927] Following properties on pin /ComputeCoreWrapper_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=cryptoprocessor_processing_system7_0_0_FCLK_CLK0 
+Wrote  : </home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/cryptoprocessor.bd> 
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/sim/cryptoprocessor.v
+VHDL Output written to : /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hdl/cryptoprocessor_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_Slave8Ports_new_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ComputeCoreWrapper_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/ip/cryptoprocessor_auto_pc_0/cryptoprocessor_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor.hwh
+Generated Block Design Tcl file /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/hw_handoff/cryptoprocessor_bd.tcl
+Generated Hardware Definition File /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.srcs/sources_1/bd/cryptoprocessor/synth/cryptoprocessor.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP cryptoprocessor_auto_pc_0, cache-ID = bff70cfbc061a5b1; cache size = 4,766 MB.
+[Wed Jan 12 12:55:29 2022] Launched cryptoprocessor_ComputeCoreWrapper_0_0_synth_1, synth_1...
+Run output will be captured here:
+cryptoprocessor_ComputeCoreWrapper_0_0_synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/cryptoprocessor_ComputeCoreWrapper_0_0_synth_1/runme.log
+synth_1: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/synth_1/runme.log
+[Wed Jan 12 12:55:30 2022] Launched impl_3...
+Run output will be captured here: /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/runme.log
+launch_runs: Time (s): cpu = 00:00:36 ; elapsed = 00:00:19 . Memory (MB): peak = 8647.168 ; gain = 70.914 ; free physical = 3131 ; free virtual = 7571
+file copy -force /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+file copy -force /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.runs/impl_3/cryptoprocessor_wrapper.sysdef /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+
+launch_sdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk -hwspec /home/aikata/CryptEng_class/CE_Assignment3/CryptoProcessor_2021_22/CryptoProcessor_2021_22/project_1/project_1.sdk/cryptoprocessor_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 12 14:58:20 2022...

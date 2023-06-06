@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.crypto_master\:.bss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:.data=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:.data1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:.fixup=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:.rodata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:.rodata1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:.sbss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:.sbss2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:.sdata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:.sdata2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:.text=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:heap=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:heap-size=33554432
+com.xilinx.sdk.linkgen.prefs.crypto_master\:stack=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.crypto_master\:stack-size=33554432
+eclipse.preferences.version=1

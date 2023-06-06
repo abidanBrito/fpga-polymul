@@ -1,0 +1,2 @@
+DSP_mult.vhd,vhdl,xil_defaultlib,../../../../project_1.srcs/sources_1/ip/DSP_mult/sim/DSP_mult.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,39 @@
+!SESSION 2022-12-16 11:31:44.323 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/jharing/git/2nd/chw2022g3/project_1/project_1.sdk
+
+This is a continuation of log file /home/jharing/git/2nd/chw2022g3/project_1/project_1.sdk/.metadata/.bak_0.log
+Created Time: 2022-12-16 14:12:35.721
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-12-16 14:12:35.721
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Thread: Worker-33
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-12-16 14:12:35.742
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Result: [null, ]. Thread: Worker-33
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-12-16 14:12:35.743
+!MESSAGE XSCT Command: [dow /home/jharing/git/2nd/chw2022g3/project_1/project_1.sdk/crypto_master/Debug/crypto_master.elf], Thread: Worker-33
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-12-16 14:12:36.012
+!MESSAGE XSCT command with result: [dow /home/jharing/git/2nd/chw2022g3/project_1/project_1.sdk/crypto_master/Debug/crypto_master.elf], Result: [null, ]. Thread: Worker-33
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-12-16 14:12:36.013
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-33
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-12-16 14:12:36.015
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-33
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-12-16 14:12:36.022
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Thread: Worker-33
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-12-16 14:12:36.056
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx TUL 1234-tulA"} -index 0], Result: [null, ]. Thread: Worker-33
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-12-16 14:12:36.057
+!MESSAGE XSCT Command: [con], Thread: Worker-33
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-12-16 14:12:36.073
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-33
