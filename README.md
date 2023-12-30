@@ -14,17 +14,17 @@ Since we were aiming for maximum speed, we chose to implement the n-point NTT, a
 
 As we aimed for maximum speed, we decided that using Xilinx multiplier IP is a good choice. Those modules have a configurable amount of pipelining stages, spreading the computations evenly across stages for maximum performance. Our design has the following components:
 
-- 1x 64-bit multiplier (6 pipelining stages)
-- 2x 64-bit constant multipliers for mu (we shifted the value to fit into the 64-bit constraint) (3 pipelining stages)
-- 1x 64-bit constant multiplier for q (3 pipelining stages)
-- final reduction by subtracting q (1 pipelining stage)
-
+- 1x 64-bit multiplier (6 pipelining stages).
+- 2x 64-bit constant multipliers for mu (3 pipelining stages).
+  **NOTE**: we shifted one of the values to fit into the 64-bit constraint.
+- 1x 64-bit constant multiplier for q (3 pipelining stages).
+- Final reduction by subtracting q (1 pipelining stage).
 
 #### Task 2: Polynomial Multiplication
 
-We based our considerations around the decision to use only one piplined modular multiplyer. This allows one pair of 64-bit values to be processed each cycle. Given that the framework provides memory read and write of only one 64-bit value per cycle, this is an obvious bottleneck that we wanted to mitigate, allowing a 2x speedup. To do so, we split up the BRAM into two slices, each containing all even and odd addresses respectively. We modified the algorithm to always perform the load operations of two consecutive butterfly operations in paralell. Extra pipelining stages are needed to reorder values before and after the butterfly operations. We later discovered that our timing optimizations are very similar to Sinha Roy et al. 2014 [1], with the difference that we do not perform in-memory reordering. This has the drawback that a special case is needed in the last iteration of the algorithm (or first in case or inverse-NTT), where no reordering is performed, requiring slightly more area than [1].
+We based our considerations around the decision to use only one pipelined modular multiplier. This allows one pair of 64-bit values to be processed each cycle. Given that the framework provides memory read and write of only one 64-bit value per cycle, this is an obvious bottleneck that we wanted to mitigate, allowing a 2x speedup. To do so, we split up the BRAM into two slices, each containing all even and odd addresses respectively. We modified the algorithm to always perform the load operations of two consecutive butterfly operations in paralell. Extra pipelining stages are needed to reorder values before and after the butterfly operations. We later discovered that our timing optimizations are very similar to Sinha Roy et al. 2014 [1], with the difference that we do not perform in-memory reordering. This has the drawback that a special case is needed in the last iteration of the algorithm (or first, in case of inverse-NTT), where no reordering is performed, requiring slightly more area than [1].
 
-Another optimization was that we did not instantiate a private BRAM, instead reusing the one in the CryptoCore in order to save area. This required modifying the instruction setup, where we split up the polynomial multiplication into three seperate instructions: NTT, point-wise multiply, and inverse-NTT. To perform polynomial multiplication of `opA` and `opB`, writing the result to `res`, a sequence of instructions needs to be executed:
+Another optimization was that we did not instantiate a private BRAM, instead reusing the one in the CryptoCore in order to save area. This required modifying the instruction setup, where we split up the polynomial multiplication into three separate instructions: NTT, point-wise multiplication, and inverse-NTT. To perform polynomial multiplication of `opA` and `opB`, writing the result to `res`, a sequence of instructions needs to be executed:
 
 - NTT `opA`, `opA`, `opA`
 - NTT `opB`, `opB`, `opB`
@@ -48,14 +48,13 @@ Resources used:
 
 Speed (average over 1000 random tests):
 
-- data transfer ARM -> FPGA: 9010 (for data) + 211 (for instructions) CPU clock cycles 
-- computation: 3746.7 FPGA cycles (= 18733.5 CPU clock cycles)
-- data transfer FPGA -> ARM: 2284 CPU clock cycles
+- Data transfer ARM -> FPGA: 9010 (for data) + 211 (for instructions) CPU clock cycles 
+- Computation: 3746.7 FPGA cycles (= 18733.5 CPU clock cycles)
+- Data transfer FPGA -> ARM: 2284 CPU clock cycles
 
-
+### References
 [1]: S. Sinha Roy, F. Vercauteren, N. Mentens, D. Donglong Chen, I. Verbauwhede: Compact Ring-LWE
 Cryptoprocessor. CHES 2014.
-
 
 <!--
 ```py
